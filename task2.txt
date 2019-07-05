@@ -3,3 +3,4 @@
 	- git config --replace-all user.name "Pawel Will"		//приписывание гиту нового имени
 	- git config --replace-all user.email "Pawel Will"		//приписывание гиту нового email
 	- $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"	//гененрирование ключа
+	- I'm not understand What the fuck is it..
