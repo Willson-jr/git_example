@@ -13,7 +13,12 @@ Contents list:
 	- git reset HEAD book.txt
 	- git stash
 	- git checkout -b branch_name
-	- git stash pop --index 0 //[]	
-	- git checkout branch_name
-	- git merge (branch_name || origin/branch_name)
-
+	- git stash pop --index 0 //[]	//достать кусок с нужным  индексом
+	- git checkout branch_name //создание
+	- git merge (branch_name || origin/branch_name) // Обьеденение
+	- git branch -d branch_name // удаление
+	- git branch //список
+	- git remote // spisok remotov
+	- git remote -v //c adresami
+	- git remote add (origin||dupa) remote_adress_url
+	- git remote rm (origin || dupa) // удалит адрес 
