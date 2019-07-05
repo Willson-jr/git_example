@@ -1,0 +1,12 @@
+Contents list:
+
+1. GIT basic commands
+        - git init
+        - git status
+        - git add
+        - git rm --cached
+        - git commit
+        - git commit --amend
+        - git log
+	- git checkout --book.txt
+
