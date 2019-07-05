@@ -1,24 +1,27 @@
 Contents list:
 
 1. GIT basic commands
-        - git init
-        - git status
-        - git add
-        - git rm --cached
-        - git commit
-        - git commit --amend
-        - git log
-	- git checkout --book.txt
-	- git diff 
-	- git reset HEAD book.txt
-	- git stash
-	- git checkout -b branch_name
-	- git stash pop --index 0 //[]	//достать кусок с нужным  индексом
-	- git checkout branch_name //создание
-	- git merge (branch_name || origin/branch_name) // Обьеденение
-	- git branch -d branch_name // удаление
-	- git branch //список
-	- git remote // spisok remotov
-	- git remote -v //c adresami
-	- git remote add (origin||dupa) remote_adress_url
-	- git remote rm (origin || dupa) // удалит адрес 
+        - git init						// инициализация репозитория
+        - git status						// статус текущий
+        - git add						// следим
+        - git rm --cached					// удалить слежку
+        - git commit						// записываем данный момент
+        - git commit --amend					// изменять комментарий
+        - git log						// список коммитов
+	- git checkout --book.txt				// удалить изменения бесследно 
+	- git diff						// изменения перед высыланием	
+	- git reset HEAD book.txt				// меняет изменения
+	- git stash						// на полку
+	- git checkout -b branch_name				// создать новую ветку
+	- git stash pop --index 0 //[]				// достать кусок с нужным  индексом не добавленные в предкомитовое состояние
+	- git checkout branch_name				// переключение между ветками
+	- git merge (branch_name || origin/branch_name)		// Обьеденение изменение между ветками
+	- git branch -d branch_name				// удаление ветки
+	- git branch						// список веток
+	- git remote						// spisok remotov
+	- git remote -v						// c adresami
+	- git remote add (origin||dupa)				// remote_adress_url
+	- git remote rm (origin || dupa)			// удалит адрес 
+	- git pull origin master				// 
+	- git push origin master (--force)			// всунуть в ГИТ свой кусок
+	- git push origin -u master				// всунуть в ветку по умолчанию - первый пуш - upstream set
