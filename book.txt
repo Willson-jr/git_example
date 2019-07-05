@@ -14,3 +14,6 @@ Contents list:
 	- git stash
 	- git checkout -b branch_name
 	- git stash pop --index 0 //[]	
+	- git checkout branch_name
+	- git merge (branch_name || origin/branch_name)
+
