@@ -9,4 +9,8 @@ Contents list:
         - git commit --amend
         - git log
 	- git checkout --book.txt
-
+	- git diff 
+	- git reset HEAD book.txt
+	- git stash
+	- git checkout -b branch_name
+	- git stash pop --index 0 //[]	
