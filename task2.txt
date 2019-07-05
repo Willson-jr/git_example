@@ -1,0 +1,5 @@
+2. CMD commands
+	- touch ***.txt						//создание файла
+	- git config --replace-all user.name "Pawel Will"	//приписывание гиту нового имени
+	- git config --replace-all user.email "Pawel Will"	//приписывание гиту нового email
+
